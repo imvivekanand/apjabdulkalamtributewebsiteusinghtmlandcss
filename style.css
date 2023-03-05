@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #b7b7f9;
+    min-height: 100vh;
+    border: 10px solid #1D1E4C;
+}
+
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.top_section{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.top_section h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.top_section h4{
+    font-size: 30px;
+    text-align: end;
+    color: whitesmoke;
+}
+
+
+
+.image_container, img{
+    width: 300px;
+    height: 300px;
+}
